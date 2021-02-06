@@ -107,21 +107,22 @@ def decade(year):
     '''
     return int(math.floor(year / 10) * 10)
 
-def main(inp, sk=0, train_portion= 0.9):
+def main(inp, sk=0, train_portion= 0.9, log="SVM.log"):
 
     '''
     Main script for SVM classifier
     :param inp: input file
     :param sk: if not None, skip these many rows
     :param train_portion: proportion of the data used for training
+    :param log: name of the log file to output the results
     :return:
     '''
 
     # Writing the outputs to a log file
     old_stdout = sys.stdout
-    log_file = open("SVM.log", "w")
+    log_file = open(log, "w")
     sys.stdout = log_file
-    print ("Outputs are to SVM.log")
+    print (log)
 
     # start the counter for analysis
     start_time = time.time()

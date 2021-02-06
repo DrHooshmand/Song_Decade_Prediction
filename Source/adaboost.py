@@ -71,21 +71,22 @@ def decade(year):
     '''
     return int(math.floor(year / 10) * 10)
 
-def main(inp, sk=0):
+def main(inp, sk=0, log= "Adaboost.log"):
 
     '''
     Main script for adaboost analyses
     :param inp: input file
     :param sk: if not None, number of lines to skip
+    :param log: name of the log file to output the results
     :return:
     '''
 
     # Outputting the data to a log file
 
     old_stdout = sys.stdout
-    log_file = open("Adaboost.log", "w")
+    log_file = open(log, "w")
     sys.stdout = log_file
-    print("Outputs are to Adaboost.log")
+    print(log)
 
     start_time = time.time()    # Set the timer on
     data = np.loadtxt(inp, delimiter=',', skiprows=sk)  # Load the data

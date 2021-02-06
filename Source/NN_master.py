@@ -281,19 +281,20 @@ def do_predict(input_file, et, alp, layer, neuron, skip=None):
 
     return acc
 
-def main (inp, sk=0):
+def main (inp, sk=0, log="NN.log"):
     '''
     Main routine
     :param inp: input file
     :param sk: number of lines to skip if not zero
+    :param log: name of the log file to output the results
     :return:
     '''
 
     # start writing the log file
     old_stdout = sys.stdout
-    log_file = open("NN.log", "w")
+    log_file = open(log, "w")
     sys.stdout = log_file
-    print ("Outputs are to NN.log")
+    print (log)
 
     start_time = time.time()        #set the time
     # out_layer = out_layer_neuron(inp, skip=sk) # Computationally expensive: Should be ran on supercomputer
