@@ -44,7 +44,7 @@ Data preprocessing and cleaning are as follows:
 
 2. **Extracting data to a Numpy array**: Then the output data is transformed to an `.npy` format to be read by `numpy` package for further processing. This is being done by using [`hdf5_getters_mod.py`](lib/hd5_aggregation/hdf5_getters_mod.py) routine from `lib` directory. 
 
-3. Features used for each entry is listed in [here](features.txt)
+3. Features used for each entry is listed in [here](features.md)
 
 
 ## Feedback, bugs, questions 
