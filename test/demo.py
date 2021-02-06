@@ -18,7 +18,7 @@ def demo():
     escape = 0
     # output file defined in the script
     file_out = "output.txt"
-    NN_master.main(inp, sk= escape)
+    NN_master.main(inp, sk= escape, pre="layer_neuron.npy")
     svm.main(inp, sk= escape)
     adaboost.main(inp, sk= escape)
     # stop the timer

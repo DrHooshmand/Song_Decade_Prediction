@@ -281,11 +281,12 @@ def do_predict(input_file, et, alp, layer, neuron, skip=None):
 
     return acc
 
-def main (inp, sk=0, log="NN.log"):
+def main (inp, sk=0, pre=None, log="NN.log"):
     '''
     Main routine
     :param inp: input file
     :param sk: number of lines to skip if not zero
+    :param pre: if not None, skip performing the expensive layer/neuron analysis and read the results from this pre-written file
     :param log: name of the log file to output the results
     :return:
     '''
@@ -297,8 +298,10 @@ def main (inp, sk=0, log="NN.log"):
     print (log)
 
     start_time = time.time()        #set the time
-    # out_layer = out_layer_neuron(inp, skip=sk) # Computationally expensive: Should be ran on supercomputer
-    out_layer = "ss.npy" # Here we use pre-written data on the large dataset to skip the computationally intensive part
+    if pre is None:
+        out_layer = out_layer_neuron(inp, skip=sk) # Computationally expensive: Should be ran on supercomputer
+    else:
+        out_layer = pre # Here we use pre-written data on the large dataset to skip the computationally intensive part
     layer_opt, neuron_opt = plot_layer_neuron(out_layer)    # plotting layer/neuron optimiztion
     alpha_opt, eta_opt = plot_hyper_param(inp, layer_opt, neuron_opt, skip=sk)  # plotting hyperparameter tuning optimization
 

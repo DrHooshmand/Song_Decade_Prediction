@@ -1,49 +1,48 @@
 SVM.log
-Counter({2000: 28, 1990: 19})
+Counter({2000: 37, 1990: 9, 1930: 1})
 Best params set found on validation set:
- {'C': 0.0625, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+ {'C': 64.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
 
 Grid (mean accuracy) scores on validation set:
 
-0.889 for {'C': 0.0625, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.889 for {'C': 0.125, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.889 for {'C': 0.25, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.847 for {'C': 0.5, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 1.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 2.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 4.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 8.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 16.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.847 for {'C': 32.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.852 for {'C': 64.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.852 for {'C': 128.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
-0.889 for {'C': 0.0625, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 0.125, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 0.25, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 0.5, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 1.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 2.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 4.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 8.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 16.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 32.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 64.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
-0.827 for {'C': 128.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.769 for {'C': 0.0625, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.769 for {'C': 0.125, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.769 for {'C': 0.25, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.769 for {'C': 0.5, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.769 for {'C': 1.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 2.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 4.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 8.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 16.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 32.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.771 for {'C': 64.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.771 for {'C': 128.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.769 for {'C': 0.0625, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.769 for {'C': 0.125, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 0.25, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 0.5, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 1.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 2.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 4.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 8.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 16.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 32.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 64.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.749 for {'C': 128.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
 
 Detailed classification report:
 
               precision    recall  f1-score   support
 
-        1930       0.56      1.00      0.71         5
-        1940       0.80      1.00      0.89         4
-        1980       0.00      0.00      0.00         0
-        1990       0.86      0.86      0.86       132
-        2000       0.96      0.94      0.95       322
+        1930       0.71      1.00      0.83         5
+        1940       1.00      1.00      1.00         4
+        1990       0.86      0.90      0.88       132
+        2000       0.96      0.93      0.95       322
 
-   micro avg       0.92      0.92      0.92       463
-   macro avg       0.64      0.76      0.68       463
-weighted avg       0.93      0.92      0.92       463
+   micro avg       0.93      0.93      0.93       463
+   macro avg       0.88      0.96      0.91       463
+weighted avg       0.93      0.93      0.93       463
 
-Accuracy: 0.918
+Accuracy: 0.927
 
 Running time: 0 min
