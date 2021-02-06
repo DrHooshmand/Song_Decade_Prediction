@@ -1,0 +1,25 @@
+NN.log
+Plotting layer/neuron analysis is initiated
+Plotting layer/neuron analysis is finished
+Optimized parameters: Layer = 4.0, Neuron = 22.0
+Hyper parameter optimzation routine is initiated
+[79.06976744186046, 79.06976744186046, 79.06976744186046, 69.76744186046511, 68.9922480620155, 37.98449612403101, 63.565891472868216, 68.21705426356588, 31.007751937984494]
+Hyper parameter optimzation routine is finished
+Optimized parameters: Alpha = 0.01, eta = 0.1
+Prediction is initiated
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.81      0.83        88
+        30.0       0.00      0.00      0.00         3
+        40.0       0.00      0.00      0.00         1
+        90.0       0.53      0.65      0.59        37
+
+   micro avg       0.74      0.74      0.74       129
+   macro avg       0.34      0.36      0.35       129
+weighted avg       0.73      0.74      0.73       129
+
+Prediction is finished
+Accuracy predicted as: 73.643%
+Accuracy score: 0.736
+
+Running time: 0 min
