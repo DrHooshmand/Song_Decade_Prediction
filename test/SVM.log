@@ -1,0 +1,49 @@
+Outputs are to SVM.log
+Counter({2000: 32, 1990: 14, 1940: 1})
+Best params set found on validation set:
+ {'C': 0.0625, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+
+Grid (mean accuracy) scores on validation set:
+
+0.767 for {'C': 0.0625, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 0.125, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 0.25, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 0.5, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 1.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 2.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 4.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 8.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 16.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.747 for {'C': 32.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.747 for {'C': 64.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.747 for {'C': 128.0, 'dual': False, 'loss': 'squared_hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 0.0625, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.743 for {'C': 0.125, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 0.25, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 0.5, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 1.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 2.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 4.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 8.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 16.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 32.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 64.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+0.723 for {'C': 128.0, 'dual': True, 'loss': 'hinge', 'max_iter': 1000000.0}
+
+Detailed classification report:
+
+              precision    recall  f1-score   support
+
+        1930       0.56      1.00      0.71         5
+        1940       1.00      0.75      0.86         4
+        1980       0.00      0.00      0.00         0
+        1990       0.85      0.88      0.87       132
+        2000       0.96      0.93      0.95       322
+
+   micro avg       0.92      0.92      0.92       463
+   macro avg       0.67      0.71      0.68       463
+weighted avg       0.92      0.92      0.92       463
+
+Accuracy: 0.918
+
+Running time: 0 min
