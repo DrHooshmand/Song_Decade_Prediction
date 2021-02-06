@@ -1,4 +1,4 @@
-# Million Song Decade Prediction
+# Million Songs Decade Prediction
 
 ## Project Description:
 ------------------------------------
