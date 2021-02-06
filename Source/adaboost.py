@@ -24,9 +24,7 @@ def train_and_test(X_train, y_train, X_test, y_test):
     :return:
     '''
 
-    ''' https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_digits.html
-        https://stats.stackexchange.com/questions/31066/what-is-the-influence-of-c-in-svms-with-linear-kernel
-        https://stats.stackexchange.com/questions/43943/which-search-range-for-determining-svm-optimal-c-and-gamma-parameters
+    ''' Refs: https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_digits.html
         https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV '''
     C, max_iter = [math.pow(2, i) for i in range(-4, 8)], [1e6]
 
