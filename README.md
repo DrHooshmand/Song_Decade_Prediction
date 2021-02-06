@@ -2,7 +2,7 @@
 
 ## Project Description:
 ------------------------------------
-This project aims to apply various machine learning algorithms to classify the songs by the decade in which they were released. Multi-layer neural network (NN), support vector machine (SVM) and AdaBoost schemes were employed. For the detailed report of this project, please refer to the attached [file](report/report.pdf). 
+This project aims to apply various machine learning algorithms to classify the songs by the decade in which they were released. Multi-layer neural network (NN), support vector machine (SVM), and AdaBoost schemes were employed. For the detailed report of this project, please refer to the attached [file](report/report.pdf). 
 
 ## To use this software:
 ------------------------------------
@@ -40,9 +40,9 @@ Sample input file is provided in `reduced.txt` in the `Testing` directory. Outpu
 Database used is from [Columbia Labrosa Laboratory] (http://millionsongdataset.com) million song [dataset](https://archive.ics.uci.edu/ml/datasets/yearpredictionmsd). Instructions for getting the full dataset can be found in [here](https://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset). Data set is provided with a series of `.hd5` files, which need to be cleaned and processed before starting the analysis. A series of scripts provided in the `lib` directory to extract feature information as well to manipulate the data [here](lib/). 
 
 Data preprocessing and cleaning are as follows: 
-1. **Aggregating**: The way how the data is provided by several `.hd5` files based on the alphabetic order. All the `.hd5` files need to be compiled to a single file first.  This process can be done by modifying `maindir` variable where the raw `.hd5` data resides and the `output` variable which dumps the aggregated file in [`create_aggregate_file.py`](lib/hd5_aggregation/create_aggregate_file.py) from `lib` directory. 
+1. **Aggregation**: The way how the data is provided by several `.hd5` files based on the alphabetic order. All the `.hd5` files need to be compiled to a single file first.  This process can be done by modifying `maindir` variable where the raw `.hd5` data resides and the `output` variable which dumps the aggregated file in [`create_aggregate_file.py`](lib/hd5_aggregation/create_aggregate_file.py) from `lib` directory. 
 
-2. **Extracting data to a Numpy array**: Then the output data is transformed to an `.npy` format to be read by `numpy` package for further processing. This is being done by using [`hdf5_getters_mod.py`](lib/hd5_aggregation/hdf5_getters_mod.py) routine from `lib` directory. 
+2. **Data extraction to a Numpy array**: The output data is transformed to an `.npy` format to be read by `numpy` package for further processing. This is being done by using [`hdf5_getters_mod.py`](lib/hd5_aggregation/hdf5_getters_mod.py) routine from `lib` directory. 
 
 3. Features used for each entry is listed in [here](features.md)
 
