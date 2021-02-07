@@ -8,11 +8,11 @@ import sys
 import time
 from pathlib import Path
 sys.path.insert(1, '../')
-from Source import NN_master, svm, adaboost
+from src import NN_master, svm, adaboost
 
 def demo():
     # start the timer
-    start = time.time() 
+    start = time.time()
     # input file
     inp = "reduced.txt"
     escape = 0
