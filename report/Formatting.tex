@@ -82,7 +82,7 @@
 %Changes the \maketitle command to be smaller and take up less space on a page. 
 \makeatletter         
 \def\@maketitle{   % custom maketitle 
-\noindent {\Large \bfseries \color{black} \@title}  \\ \hrule \noindent \@author \\ \@date  
+\noindent {\Large \bfseries \color{black} \@title}  \\ \hrule \noindent \@author \\ %\@date
 }
 
 %The code below will draw a circle around a piece of text. This is very useful for drawing attention to a word in a data example. use the command \circled{text} where the argument (`text' here) is what you want to be circled. This is illustrated in the Quick Reference Guide and the Paper Template.
