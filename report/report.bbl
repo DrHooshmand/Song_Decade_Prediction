@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{buitinck2013}
+Lars Buitinck, Gilles Louppe, Mathieu Blondel, Fabian Pedregosa, Andreas
+  Mueller, Olivier Grisel, Vlad Niculae, Peter Prettenhofer, Alexandre
+  Gramfort, Jaques Grobler, Robert Layton, Jake Vanderplas, Arnaud Joly, Brian
+  Holt, and Ga{\"e}l Varoquaux.
+\newblock {{API}} design for machine learning software: Experiences from the
+  scikit-learn project.
+\newblock {\em arXiv:1309.0238 [cs]}, September 2013.
+
+\bibitem{kingma2017}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: {{A Method}} for {{Stochastic Optimization}}.
+\newblock {\em arXiv:1412.6980 [cs]}, January 2017.
+
+\end{thebibliography}
