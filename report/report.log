@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  7 FEB 2021 14:53
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  7 FEB 2021 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -343,8 +343,7 @@ Type  H <return>  for immediate help.
                                                   
 l.21 
      
-? s
-OK, entering \scrollmode...
+? 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
 )
@@ -1090,15 +1089,7 @@ Type  H <return>  for immediate help.
 l.54 \usepackage
                 {libertine} %A font that actually contains many IPA symbols....
 
-The package fontspec has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [no-math]
-Adding the global options:
-  ,no-math
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
+? 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/libertine/libertine.sty
 Package: libertine 2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fon
 ts for all LaTeX engines.
